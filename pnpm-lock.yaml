@@ -5,10 +5,12 @@ specifiers:
   pinia: ^2.0.23
   vite: ^3.1.0
   vue: ^3.2.37
+  vue-router: ^4.1.5
 
 dependencies:
   pinia: 2.0.23_vue@3.2.41
   vue: 3.2.41
+  vue-router: 4.1.5_vue@3.2.41
 
 devDependencies:
   '@vitejs/plugin-vue': 3.1.2_vite@3.1.8+vue@3.2.41
@@ -504,6 +506,15 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
+      vue: 3.2.41
+    dev: false
+
+  /vue-router/4.1.5_vue@3.2.41:
+    resolution: {integrity: sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.4.5
       vue: 3.2.41
     dev: false
 
