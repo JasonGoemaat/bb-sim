@@ -18,9 +18,31 @@
         </li>
       </ul>
     </nav>
-    <router-view/>
+    <div class="content">
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <style scoped>
+div.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  overflow: auto;
+  /* margin-bottom: 50px; */
+}
+
+nav {
+  height: 100vh;
+  min-width: 200px;
+  background-color: lightblue;
+}
+
+div.content {
+  flex-grow: 1;
+  margin-left: 1em;
+  overflow: auto;
+  background-color: orange;
+}
 </style>
