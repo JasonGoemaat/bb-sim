@@ -29,7 +29,8 @@ div.main {
   height: 100vh;
   width: 100vw;
   display: flex;
-  overflow: auto;
+  overflow: hidden;
+  /* overflow: auto; */
   /* margin-bottom: 50px; */
 }
 
@@ -37,12 +38,13 @@ nav {
   height: 100vh;
   min-width: 200px;
   background-color: lightblue;
+  /* position: fixed; */
 }
 
 div.content {
   flex-grow: 1;
   margin-left: 1em;
-  overflow: auto;
+  /* overflow: auto; */
   background-color: orange;
 }
 </style>

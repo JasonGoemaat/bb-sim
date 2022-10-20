@@ -37,21 +37,38 @@
 
 <style scoped>
 div.corp-sim {
-  height: 200vh;
+  height: 100vh;
   position: relative;
+  top: 0;
+  /* overflow: auto; */
+  /* box-sizing: border-box; */
+}
+
+h1 {
+  /* margin-top: 0; */
 }
 
 .header {
-  position: fixed;
+  /* position: fixed; */
+  /* left: inherit; */
+  /* top: 0; */
+
+  box-sizing: border-box;
+  width: 100%;
+  float: left; /* this works but not 100% wide anymore without width: 100% */
+
   height: 4em;
-  left: inherit;
-  top: 0;
   background-color: silver;
-  margin-right: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .content {
   margin-top: 4em;
+  position: fixed;
+  bottom: 0;
+  top: 0em;
   background-color: burlywood;
+  overflow: auto;
 }
 </style>
