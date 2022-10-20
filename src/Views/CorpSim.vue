@@ -37,9 +37,11 @@
 
 <style scoped>
 div.corp-sim {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
-  position: relative;
-  top: 0;
+  /* position: relative;
+  top: 0; */
   /* overflow: auto; */
   /* box-sizing: border-box; */
 }
@@ -53,14 +55,16 @@ h1 {
   /* left: inherit; */
   /* top: 0; */
 
-  box-sizing: border-box;
-  width: 100%;
-  float: left; /* this works but not 100% wide anymore without width: 100% */
+  /* box-sizing: border-box; */
+
+  /* this works but not 100% wide anymore without width: 100% */
+  /* float: left; 
+  width: 100%; */
 
   height: 4em;
   background-color: silver;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
 }
 
 .content {
